@@ -1,6 +1,3 @@
-import $ from "jquery"
-import Raphael from "raphael"
-
 var Morris, minutesSpecHelper, secondsSpecHelper,
   __slice = [].slice,
   __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; },
@@ -2216,5 +2213,3 @@ Morris.DonutSegment = (function(_super) {
   return DonutSegment;
 
 })(Morris.EventEmitter);
-
-export default Morris

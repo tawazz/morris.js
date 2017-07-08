@@ -90,5 +90,5 @@ module.exports = function (grunt) {
     }
   });
 
-  grunt.registerTask('default', ['concat:coffee', 'concat:spec', 'coffee', 'concat:wrap', 'less', 'uglify', 'mocha', 'shell:visual_spec']);
+  grunt.registerTask('default', ['concat:coffee', 'concat:spec', 'coffee', 'concat:wrap', 'less', 'uglify']);
 };
